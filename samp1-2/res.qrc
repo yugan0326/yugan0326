@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>D:/samp2_4App/images/20.ico</file>
+        <file>D:/samp2_4App/images/103.bmp</file>
+        <file>D:/samp2_4App/images/120.bmp</file>
+        <file>D:/samp2_4App/images/430.bmp</file>
+        <file>D:/samp2_4App/images/BLD.BMP</file>
+        <file>D:/samp2_4App/images/cut.bmp</file>
+        <file>D:/samp2_4App/images/DBLUNDR.BMP</file>
+        <file>D:/samp2_4App/images/exit.bmp</file>
+        <file>D:/samp2_4App/images/ITL.BMP</file>
+        <file>D:/samp2_4App/images/new2.bmp</file>
+        <file>D:/samp2_4App/images/open3.bmp</file>
+        <file>D:/samp2_4App/images/paste.bmp</file>
+        <file>D:/samp2_4App/images/UNDRLN.BMP</file>
+        <file>D:/samp2_4App/images/WORDUNDR.BMP</file>
+    </qresource>
+</RCC>

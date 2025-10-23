@@ -39,7 +39,7 @@
     <item>
      <layout class="QGridLayout" name="gridLayout_2">
       <item row="4" column="3">
-       <widget class="QPushButton" name="btnDel">
+       <widget class="QPushButton" name="btnMinus">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -130,7 +130,7 @@
        </widget>
       </item>
       <item row="2" column="3">
-       <widget class="QPushButton" name="pushButton_5">
+       <widget class="QPushButton" name="btnDivide">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
           <horstretch>0</horstretch>
@@ -273,7 +273,7 @@
        </widget>
       </item>
       <item row="5" column="3">
-       <widget class="QPushButton" name="pushButton_19">
+       <widget class="QPushButton" name="btnPlus">
         <property name="sizePolicy">
          <sizepolicy hsizetype="Expanding" vsizetype="Preferred">
           <horstretch>0</horstretch>

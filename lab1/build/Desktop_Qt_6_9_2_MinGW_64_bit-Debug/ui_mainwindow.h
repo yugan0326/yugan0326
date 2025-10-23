@@ -28,14 +28,14 @@ public:
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout;
     QGridLayout *gridLayout_2;
-    QPushButton *btnDel;
+    QPushButton *btnMinus;
     QPushButton *btnClear;
     QPushButton *btnLnverse;
     QPushButton *btnNum0;
     QPushButton *btnNum3;
     QPushButton *pushButton_24;
     QPushButton *btnNum7;
-    QPushButton *pushButton_5;
+    QPushButton *btnDivide;
     QPushButton *btnPercentage;
     QPushButton *btnNum6;
     QPushButton *pushButton_2;
@@ -46,7 +46,7 @@ public:
     QPushButton *btnSqrt;
     QPushButton *btnNum4;
     QPushButton *btnNum5;
-    QPushButton *pushButton_19;
+    QPushButton *btnPlus;
     QPushButton *pushButton_21;
     QPushButton *btnNum8;
     QPushButton *pushButton_22;
@@ -74,15 +74,15 @@ public:
         verticalLayout->setContentsMargins(1, 1, 1, 1);
         gridLayout_2 = new QGridLayout();
         gridLayout_2->setObjectName("gridLayout_2");
-        btnDel = new QPushButton(centralwidget);
-        btnDel->setObjectName("btnDel");
+        btnMinus = new QPushButton(centralwidget);
+        btnMinus->setObjectName("btnMinus");
         QSizePolicy sizePolicy1(QSizePolicy::Policy::Expanding, QSizePolicy::Policy::Preferred);
         sizePolicy1.setHorizontalStretch(0);
         sizePolicy1.setVerticalStretch(0);
-        sizePolicy1.setHeightForWidth(btnDel->sizePolicy().hasHeightForWidth());
-        btnDel->setSizePolicy(sizePolicy1);
+        sizePolicy1.setHeightForWidth(btnMinus->sizePolicy().hasHeightForWidth());
+        btnMinus->setSizePolicy(sizePolicy1);
 
-        gridLayout_2->addWidget(btnDel, 4, 3, 1, 1);
+        gridLayout_2->addWidget(btnMinus, 4, 3, 1, 1);
 
         btnClear = new QPushButton(centralwidget);
         btnClear->setObjectName("btnClear");
@@ -126,12 +126,12 @@ public:
 
         gridLayout_2->addWidget(btnNum7, 3, 0, 1, 1);
 
-        pushButton_5 = new QPushButton(centralwidget);
-        pushButton_5->setObjectName("pushButton_5");
-        sizePolicy1.setHeightForWidth(pushButton_5->sizePolicy().hasHeightForWidth());
-        pushButton_5->setSizePolicy(sizePolicy1);
+        btnDivide = new QPushButton(centralwidget);
+        btnDivide->setObjectName("btnDivide");
+        sizePolicy1.setHeightForWidth(btnDivide->sizePolicy().hasHeightForWidth());
+        btnDivide->setSizePolicy(sizePolicy1);
 
-        gridLayout_2->addWidget(pushButton_5, 2, 3, 1, 1);
+        gridLayout_2->addWidget(btnDivide, 2, 3, 1, 1);
 
         btnPercentage = new QPushButton(centralwidget);
         btnPercentage->setObjectName("btnPercentage");
@@ -203,12 +203,12 @@ public:
 
         gridLayout_2->addWidget(btnNum5, 4, 1, 1, 1);
 
-        pushButton_19 = new QPushButton(centralwidget);
-        pushButton_19->setObjectName("pushButton_19");
-        sizePolicy1.setHeightForWidth(pushButton_19->sizePolicy().hasHeightForWidth());
-        pushButton_19->setSizePolicy(sizePolicy1);
+        btnPlus = new QPushButton(centralwidget);
+        btnPlus->setObjectName("btnPlus");
+        sizePolicy1.setHeightForWidth(btnPlus->sizePolicy().hasHeightForWidth());
+        btnPlus->setSizePolicy(sizePolicy1);
 
-        gridLayout_2->addWidget(pushButton_19, 5, 3, 1, 1);
+        gridLayout_2->addWidget(btnPlus, 5, 3, 1, 1);
 
         pushButton_21 = new QPushButton(centralwidget);
         pushButton_21->setObjectName("pushButton_21");
@@ -273,14 +273,14 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        btnDel->setText(QCoreApplication::translate("MainWindow", "-", nullptr));
+        btnMinus->setText(QCoreApplication::translate("MainWindow", "-", nullptr));
         btnClear->setText(QCoreApplication::translate("MainWindow", "\342\214\253", nullptr));
         btnLnverse->setText(QCoreApplication::translate("MainWindow", "1/x", nullptr));
         btnNum0->setText(QCoreApplication::translate("MainWindow", "0", nullptr));
         btnNum3->setText(QCoreApplication::translate("MainWindow", "3", nullptr));
         pushButton_24->setText(QCoreApplication::translate("MainWindow", "\302\261", nullptr));
         btnNum7->setText(QCoreApplication::translate("MainWindow", "7", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("MainWindow", "/", nullptr));
+        btnDivide->setText(QCoreApplication::translate("MainWindow", "/", nullptr));
         btnPercentage->setText(QCoreApplication::translate("MainWindow", "%", nullptr));
         btnNum6->setText(QCoreApplication::translate("MainWindow", "6", nullptr));
         pushButton_2->setText(QCoreApplication::translate("MainWindow", "CE", nullptr));
@@ -291,7 +291,7 @@ public:
         btnSqrt->setText(QCoreApplication::translate("MainWindow", "\342\210\232", nullptr));
         btnNum4->setText(QCoreApplication::translate("MainWindow", "4", nullptr));
         btnNum5->setText(QCoreApplication::translate("MainWindow", "5", nullptr));
-        pushButton_19->setText(QCoreApplication::translate("MainWindow", "+", nullptr));
+        btnPlus->setText(QCoreApplication::translate("MainWindow", "+", nullptr));
         pushButton_21->setText(QCoreApplication::translate("MainWindow", ".", nullptr));
         btnNum8->setText(QCoreApplication::translate("MainWindow", "8", nullptr));
         pushButton_22->setText(QCoreApplication::translate("MainWindow", "=", nullptr));

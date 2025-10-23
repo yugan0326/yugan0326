@@ -20,7 +20,11 @@ public:
     ~MainWindow();
 
     QString operand;
+    QString opcode;
     QStack<QString> operands;
+    QStack<QString>opcodes;
+
+    QString calculation(bool *ok=NULL);
 
 private slots:
 
@@ -33,6 +37,8 @@ private slots:
     void on_btnClear_clicked();
 
     void on_pushButton_3_clicked();
+
+    void on_pushButton_22_clicked();
 
 private:
     Ui::MainWindow *ui;

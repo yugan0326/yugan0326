@@ -24,6 +24,13 @@ public:
     QStack<QString> operands;
     QStack<QString>opcodes;
 
+    //改
+    double currentValue;
+    double storedValue;
+    QString pendingOperation;
+    bool waitingForOperand;
+
+
     QString calculation(bool *ok=NULL);
 
 private slots:
@@ -32,6 +39,8 @@ private slots:
 
     void btnBinaryOperandorClicked();
 
+    void btnUnaryqperatorClicked();
+
     void on_pushButton_21_clicked();
 
     void on_btnClear_clicked();
@@ -39,6 +48,21 @@ private slots:
     void on_pushButton_3_clicked();
 
     void on_pushButton_22_clicked();
+
+    void onEqualsClicked();
+
+    // 正负号按钮功能
+    void onPlusMinusClicked();
+
+    // CE按钮功能
+    void onCEClicked();
+
+    // 数字按钮功能（如果还没有声明）
+    void onDigitClicked();
+
+    // 操作符按钮功能（如果还没有声明）
+    void onOperatorClicked();
+
 
 private:
     Ui::MainWindow *ui;

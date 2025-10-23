@@ -43,10 +43,16 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         "btnNumClicked",
         "",
         "btnBinaryOperandorClicked",
+        "btnUnaryqperatorClicked",
         "on_pushButton_21_clicked",
         "on_btnClear_clicked",
         "on_pushButton_3_clicked",
-        "on_pushButton_22_clicked"
+        "on_pushButton_22_clicked",
+        "onEqualsClicked",
+        "onPlusMinusClicked",
+        "onCEClicked",
+        "onDigitClicked",
+        "onOperatorClicked"
     };
 
     QtMocHelpers::UintData qt_methods {
@@ -54,14 +60,26 @@ template <> constexpr inline auto MainWindow::qt_create_metaobjectdata<qt_meta_t
         QtMocHelpers::SlotData<void()>(1, 2, QMC::AccessPrivate, QMetaType::Void),
         // Slot 'btnBinaryOperandorClicked'
         QtMocHelpers::SlotData<void()>(3, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'on_pushButton_21_clicked'
+        // Slot 'btnUnaryqperatorClicked'
         QtMocHelpers::SlotData<void()>(4, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'on_btnClear_clicked'
+        // Slot 'on_pushButton_21_clicked'
         QtMocHelpers::SlotData<void()>(5, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'on_pushButton_3_clicked'
+        // Slot 'on_btnClear_clicked'
         QtMocHelpers::SlotData<void()>(6, 2, QMC::AccessPrivate, QMetaType::Void),
-        // Slot 'on_pushButton_22_clicked'
+        // Slot 'on_pushButton_3_clicked'
         QtMocHelpers::SlotData<void()>(7, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'on_pushButton_22_clicked'
+        QtMocHelpers::SlotData<void()>(8, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onEqualsClicked'
+        QtMocHelpers::SlotData<void()>(9, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onPlusMinusClicked'
+        QtMocHelpers::SlotData<void()>(10, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onCEClicked'
+        QtMocHelpers::SlotData<void()>(11, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onDigitClicked'
+        QtMocHelpers::SlotData<void()>(12, 2, QMC::AccessPrivate, QMetaType::Void),
+        // Slot 'onOperatorClicked'
+        QtMocHelpers::SlotData<void()>(13, 2, QMC::AccessPrivate, QMetaType::Void),
     };
     QtMocHelpers::UintData qt_properties {
     };
@@ -87,10 +105,16 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         switch (_id) {
         case 0: _t->btnNumClicked(); break;
         case 1: _t->btnBinaryOperandorClicked(); break;
-        case 2: _t->on_pushButton_21_clicked(); break;
-        case 3: _t->on_btnClear_clicked(); break;
-        case 4: _t->on_pushButton_3_clicked(); break;
-        case 5: _t->on_pushButton_22_clicked(); break;
+        case 2: _t->btnUnaryqperatorClicked(); break;
+        case 3: _t->on_pushButton_21_clicked(); break;
+        case 4: _t->on_btnClear_clicked(); break;
+        case 5: _t->on_pushButton_3_clicked(); break;
+        case 6: _t->on_pushButton_22_clicked(); break;
+        case 7: _t->onEqualsClicked(); break;
+        case 8: _t->onPlusMinusClicked(); break;
+        case 9: _t->onCEClicked(); break;
+        case 10: _t->onDigitClicked(); break;
+        case 11: _t->onOperatorClicked(); break;
         default: ;
         }
     }
@@ -116,14 +140,14 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 6)
+        if (_id < 12)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 6;
+        _id -= 12;
     }
     if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 6)
+        if (_id < 12)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 6;
+        _id -= 12;
     }
     return _id;
 }
